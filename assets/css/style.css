@@ -1,0 +1,107 @@
+body {
+    background-image: url('../images/Train-Background.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #8D2635;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.jumbotron {
+    background-color: #0D0D0D99;
+    color: #BE8166;
+    font-size: 150%;
+    text-shadow: 1px 1px 3px #0D0D0D;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    font-size: 300%;
+}
+
+.tag-line {
+    font-size: 125%;
+}
+
+
+.card-header {
+    background-color: #8D2635;
+    color: #BE8166;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px #0D0D0D;
+    font-weight: bold;
+}
+
+th {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 115%;
+    
+}
+
+td {
+    text-align: center;
+    text-shadow: 1px 1px 3px whitesmoke;
+    font-weight: bold;
+}
+
+.current-trains {
+    margin-bottom: 1%;
+}
+
+.card {
+    border: solid 1px #8D2635;
+    background-color: #BE8166;
+    color: #0D0D0D;
+    font-size: 125%;
+}
+
+.btn-primary {
+    background-color: #8D2635;
+    color: whitesmoke;
+    border: solid 1px whitesmoke;
+    text-shadow: 1px 1px 3px #0D0D0D;
+    
+}
+
+.btn-primary:hover {
+    background-color: #8D2635;
+    color: #6BAADD;
+    border: solid 1px #6BAADD;
+}
+
+.form-control {
+background-color: whitesmoke;
+
+
+}
+
+.current-date-time {
+    margin-bottom: 2%;
+    height: 25%;
+}
+.clock {
+    background: #BE8166;
+    color: #0D0D0D;
+    text-align: left;
+    font-size: 125%;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px whitesmoke;
+
+  }
+
+  #date-time {
+      font-weight: bold;
+      text-shadow: 1px 1px 3px #0D0D0D;
+  }
+
+  .label {
+    font-weight: bold;
+  }

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Train Schedules</title>
+
+  <!-- Reset css -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+
+  <!-- jQuery Code Link-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap Link-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome Link -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+
+  <!-- Google Fonts Link -->
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+  <!-- CSS Style Sheet Link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Moment.js Reference -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+
+  
+
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <br>
+
+    <!-- Jumbotron Title Header -->
+    <div class="jumbotron">
+      <h1 class="text-center main-title">Which Train When </h1>
+      <h3 class="text-center tag-line">Rail Transport Time Tables for the Modern Age</h3>
+    </div>
+
+    <!-- Current Date and Time -->
+    <div class="row">
+        <div class="col-md-12">
+          <div class="card current-date-time">
+            <div class="card-header clock-header" id="clock-header">
+              <h3 id="date-time"> Current Date and Time 
+              </h3>
+            </div>
+            <div class="card-body clock" id="clock"> loading ...
+            </div>
+          </div>
+        </div>
+  
+      </div>
+
+
+
+
+
+    <!-- Current Trains -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card current-trains">
+          <div class="card-header">
+            <h3><strong>Current Train Schedule</strong></h3>
+          </div>
+          <div class="card-body">
+            <table class="table" id="current-train-table">
+              <thead>
+                <tr>
+                  <th scope="col">Train Name</th>
+                  <th scope="col">Destination</th>
+                  <th scope="col">Frequency (min)</th>
+                  <th scope="col">Next Arrival</th>
+                  <th scope="col">Minutes Away</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Add Trains -->.
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card add-trains">
+          <div class="card-header">
+            <h3><strong>Add Trains</strong></h3>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group row">
+                <label for="Train-Name">Train Name</label>
+                <input class="form-control" id="train-name" type="text" placeholder="Enter Name of Train">
+              </div>
+              <div class="form-group row">
+                <label for="Destination">Destination</label>
+                <input class="form-control" id="destination" type="text" placeholder="Enter Destination">
+              </div>
+              <div class="form-group row">
+                  <label for="First-Train">Time for First Train of Day (HH:mm - military time; example 7AM = 07:00)</label>
+                  <input class="form-control" id="first-train" type="text" placeholder="Enter Time Train Begins Service for the Day">
+                </div>
+              <div class="form-group row">
+                <label for="Frequency">Frequency (min)</label>
+                <input class="form-control" id="frequency" type="text" placeholder="Enter Time Frequency Between Train Arrivals">
+              </div>
+              <button type="submit" class="btn btn-primary" id="submit-button">Add Train</button>
+              <!-- <button type="button" class="btn btn-primary dropdown-toggle" id="update-button" value="input">Update Train</button>
+              <button type="button" class="btn btn-primary dropdown-toggle" id="remove-button" value="input">Remove Train</button> -->
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html> -->
